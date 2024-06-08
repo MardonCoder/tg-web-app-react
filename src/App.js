@@ -4,13 +4,11 @@ import {useTelegram} from './hooks/useTelegram';
 import Header from './components/Header/Header';
 
 function App() {
-    const {onToggleButton, tg} = useTelegram();
+    const {onToggleButton} = useTelegram();
 
     useEffect(() => {
       tg.ready();
     }, [])
-
-
 
   return (
     <div className="App">
