@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../ButtonFldr/Button"
-import './Header.css'; //на удаление
+import './Header.css';
 import { useTelegram } from "../../hooks/useTelegram";
 
 const Header = () => {
